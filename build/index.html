@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="caption">
+            Rate
+        </p>
+        <div class="rate-block rate-block_margin-bottom">
+            <div class="stars" id="stars">
+                <span href="#" class="star" data-rate="5">
+                    <svg role="img" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                </span>
+                <span href="#" class="star" data-rate="4">
+                    <svg role="img" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                </span>
+                <span href="#" class="star" data-rate="3">
+                    <svg role="img" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                </span>
+                <span href="#" class="star" data-rate="2">
+                    <svg role="img" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                </span>
+                <span href="#" class="star" data-rate="1">
+                    <svg role="img" width="30" height="30">
+                        <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="rate-block__number" id="rate-number">
+
+            </div>
+        </div>
+        <p class="caption">
+            Progress bar
+        </p>
+        <div class="progress">
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress-bar__filler" id="progress-filler">
+    
+                    </div>
+                </div>
+            </div>
+            <form action="" class="progress__form">
+                <select name="" id="progress-select">
+                    <option value="8">8</option>
+                    <option value="16">16</option>
+                    <option value="32">32</option>
+                    <option value="64">64</option>
+                </select>
+                <button id="progress-button">
+                    go
+                </button>
+            </form>
+            
+        </div>
+        <p class="caption">
+            AJAX
+        </p>
+        <div class="ajax-block">
+            <div class="ajax-output" id="ajax-output">
+
+            </div>
+            <form class="ajax-form" name="ajaxForm">
+                <input type="text" name="ajaxForm__input">
+                <button type="submit" name="ajaxForm__button">Отправить</button>
+            </form>
+
+        </div>
+
+
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
